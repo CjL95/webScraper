@@ -4,7 +4,8 @@
   "description": "scraping a web page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www --exec babel-node -e js"
   },
   "author": "Chris Long",
   "license": "ISC",
@@ -15,5 +16,13 @@
     "lodash": "^4.17.21",
     "nodemon": "^2.0.13",
     "request-promise": "^4.2.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CjL95/webScraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CjL95/webScraper/issues"
+  },
+  "homepage": "https://github.com/CjL95/webScraper#readme"
 }
